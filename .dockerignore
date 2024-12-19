@@ -1,0 +1,14 @@
+.git
+.github
+.next
+README.md
+*Dockerfile*
+*.log
+*.log*
+.vscode
+.DS_Store
+.gitignore
+.editorconfig
+.env
+.eslintrc.js
+.idea

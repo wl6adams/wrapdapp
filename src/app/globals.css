@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100vw;
+    scroll-behavior: smooth;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+
+    flex-direction: column;
+
+    height: auto !important;
+
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+}
+
+.overflow::-webkit-scrollbar {
+    display: none;
+}
+
+.overflow {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+::marker {
+    color: transparent;
+}
+
+.chakra-modal__content-container,
+.chakra-modal__overlay {
+    z-index: 9999 !important;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.mobile-carousel-box {
+
+.slick-slide {
+    width: 275px !important;
+}
+
+.slick-track {
+    display: flex;
+
+    gap: 10px;
+}
+
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dapp-dev-comp.woof.software
+
+# Sitemaps
+Sitemap: https://dapp-dev-comp.woof.software/sitemap.xml

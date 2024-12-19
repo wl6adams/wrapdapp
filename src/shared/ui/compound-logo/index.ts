@@ -1,0 +1,1 @@
+export { CompoundLogo } from './ui';

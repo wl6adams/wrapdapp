@@ -1,0 +1,1 @@
+export { TokenCollateral } from './ui';

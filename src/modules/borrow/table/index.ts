@@ -1,0 +1,1 @@
+export { TableMarket } from './tableMarket';
